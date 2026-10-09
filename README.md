@@ -21,6 +21,9 @@ While thousands of developer bounties are advertised across Web3, builders face 
 
 BountyPilot AI solves this by combining **live multi-venue discovery**, a deterministic **6-gate policy compliance filter (PC0 to PC5)**, and an immutable **SHA-256 cryptographic attestation generator**.
 
+### Brand & Architecture Attribution
+BountyPilot AI is engineered as an autonomous module within the **VELQIRIS Decentralized Work & Verification Architecture**. All underlying policy invariants and cryptographic evidence routines are powered by the VELQIRIS Gate, ensuring zero naming ambiguity and complete intellectual property provenance.
+
 ---
 
 ## 2. Devpost Learn Planning Artifacts
@@ -112,7 +115,7 @@ npm test
 
 ## 6. Immutable Settlement Rail
 
-In accordance with institutional payment law, all BountyPilot settlement attestations are bound to:
+In accordance with the BountyPilot configured settlement policy, all BountyPilot settlement attestations are bound to:
 * **Asset:** `USDC`
 * **Network:** `Base L2`
 * **Authorized Destination Wallet:** `0xC6F86e170411182114FcCdb28793dC76B5e8D144`
