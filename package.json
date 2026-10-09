@@ -1,0 +1,30 @@
+{
+  "name": "devpost-ai-bountypilot",
+  "version": "1.0.0",
+  "description": "BountyPilot AI — Autonomous Web3 Bounty & Work Verification Agent built with Devpost Learn Skill Pack",
+  "main": "dist/server/app.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server/app.js",
+    "dev": "node --loader ts-node/esm src/server/app.ts",
+    "test": "node --test dist/tests/*.test.js"
+  },
+  "keywords": [
+    "devpost",
+    "learn-ai-basics",
+    "bountypilot",
+    "web3",
+    "base",
+    "usdc",
+    "bounty",
+    "agent",
+    "proof-of-work"
+  ],
+  "author": "VELQIRIS Acquisition",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
